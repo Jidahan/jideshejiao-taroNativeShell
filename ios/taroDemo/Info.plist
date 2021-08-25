@@ -40,19 +40,19 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow $(PRODUCT_NAME) to use your camera</string>
+	<string>是否允许此App使用你的相机？</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Allow $(PRODUCT_NAME) to access your contacts</string>
+	<string>是否允许此App访问你的通讯录？</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow $(PRODUCT_NAME) to use your location</string>
+	<string>是否允许此App获取你的定位信息已获取周边朋友？</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow $(PRODUCT_NAME) to access your microphone</string>
+	<string>是否允许此App使用你的麦克风？</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow $(PRODUCT_NAME) to access your device's accelerometer</string>
+	<string>App需要您的同意,才能访问运动与健身</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give $(PRODUCT_NAME) permission to save photos</string>
+	<string>是否允许此App访问你的媒体资料库？</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give $(PRODUCT_NAME) permission to access your photos</string>
+	<string>是否允许此App访问你的媒体资料库？</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>antfill.ttf</string>
