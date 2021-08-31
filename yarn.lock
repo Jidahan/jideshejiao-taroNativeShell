@@ -6206,6 +6206,11 @@ react-native-screens@^2.11.0:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.18.1.tgz#47b9991c6f762d00d0ed3233e5283d523e859885"
   integrity sha512-r5WZLpmx2hHjC1RgMdPq5YpSU9tEhBpUaZ5M1SUtNIONyiLqQVxabhRCINdebIk4depJiIl7yw2Q85zJyeX6fw==
 
+react-native-sound@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.nlark.com/react-native-sound/download/react-native-sound-0.11.1.tgz#e28427b3543fbf9fc6d7c96b27e79b27cd134e95"
+  integrity sha1-4oQns1Q/v5/G18lrJ+ebJ80TTpU=
+
 react-native-syan-image-picker@0.4.10:
   version "0.4.10"
   resolved "https://registry.yarnpkg.com/react-native-syan-image-picker/-/react-native-syan-image-picker-0.4.10.tgz#aefeef40842cddfdf43a9ab7ef76787e8f630dcf"

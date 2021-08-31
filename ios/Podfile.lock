@@ -349,6 +349,11 @@ PODS:
     - React-Core
   - RNScreens (2.18.1):
     - React-Core
+  - RNSound (0.11.1):
+    - React-Core
+    - RNSound/Core (= 0.11.1)
+  - RNSound/Core (0.11.1):
+    - React-Core
   - RNSyanImagePicker (0.4.10):
     - React
     - TZImagePickerController
@@ -437,6 +442,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSound (from `../node_modules/react-native-sound`)
   - RNSyanImagePicker (from `../node_modules/react-native-syan-image-picker`)
   - UMAppLoader (from `../node_modules/unimodules-app-loader/ios`)
   - UMBarCodeScannerInterface (from `../node_modules/unimodules-barcode-scanner-interface/ios`)
@@ -574,6 +580,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSound:
+    :path: "../node_modules/react-native-sound"
   RNSyanImagePicker:
     :path: "../node_modules/react-native-syan-image-picker"
   UMAppLoader:
@@ -664,6 +672,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
   RNScreens: f7ad633b2e0190b77b6a7aab7f914fad6f198d8d
+  RNSound: 27e8268bdb0a1f191f219a33267f7e0445e8d62f
   RNSyanImagePicker: aff3afbb646220de319eb00806589b9899b069c9
   TZImagePickerController: f1e4ed5ca1ddfc7e48d20867ff6a5c1e41a4b579
   UMAppLoader: 5db5dc03176c6238da9c8b3657a370137882a4ad
