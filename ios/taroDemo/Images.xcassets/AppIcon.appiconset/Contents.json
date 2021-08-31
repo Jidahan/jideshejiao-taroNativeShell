@@ -7,6 +7,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "IOS60_60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -18,26 +19,31 @@
       "size" : "29x29"
     },
     {
+      "filename" : "IOS87_87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "IOS80_80.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "IOS120_120.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "IOS120_120-1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "IOS180_180.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
