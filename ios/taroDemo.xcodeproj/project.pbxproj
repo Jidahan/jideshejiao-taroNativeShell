@@ -14,13 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		279FD249E48EB6A611FA9632 /* libPods-taroDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D080531B78B77308EB3DA755 /* libPods-taroDemo.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E949000326C6780600E9F69C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E949000226C6780600E9F69C /* assets */; };
-		E949FFFF26C66CB800E9F69C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E949FFFE26C66CB800E9F69C /* main.jsbundle */; };
 		E9B4810626C0D87400FBAD4A /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9B4810426C0D87400FBAD4A /* antoutline.ttf */; };
 		E9B4810726C0D87400FBAD4A /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9B4810526C0D87400FBAD4A /* antfill.ttf */; };
 		E9B4810826C0D93C00FBAD4A /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9B4810526C0D87400FBAD4A /* antfill.ttf */; };
 		E9B4810926C0D93C00FBAD4A /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9B4810426C0D87400FBAD4A /* antoutline.ttf */; };
 		E9B4810C26C0E3CE00FBAD4A /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = E9B4810A26C0E3C800FBAD4A /* Resource */; };
+		E9C695D526E753E30010D5A5 /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E9C695D326E753E30010D5A5 /* index.jsbundle */; };
+		E9C695D626E753E30010D5A5 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E9C695D426E753E30010D5A5 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +50,11 @@
 		781280C0B14A16637BD70EE9 /* Pods-taroDemo-taroDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taroDemo-taroDemoTests.release.xcconfig"; path = "Target Support Files/Pods-taroDemo-taroDemoTests/Pods-taroDemo-taroDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = taroDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D080531B78B77308EB3DA755 /* libPods-taroDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taroDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E949000226C6780600E9F69C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
-		E949FFFE26C66CB800E9F69C /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		E9B4810026C00B3200FBAD4A /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		E9B4810426C0D87400FBAD4A /* antoutline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = antoutline.ttf; sourceTree = "<group>"; };
 		E9B4810526C0D87400FBAD4A /* antfill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = antfill.ttf; sourceTree = "<group>"; };
 		E9B4810A26C0E3C800FBAD4A /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
+		E9C695D326E753E30010D5A5 /* index.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.jsbundle; sourceTree = "<group>"; };
+		E9C695D426E753E30010D5A5 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -99,6 +98,8 @@
 		13B07FAE1A68108700A75B9A /* taroDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E9C695D426E753E30010D5A5 /* assets */,
+				E9C695D326E753E30010D5A5 /* index.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -140,12 +141,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				E949000226C6780600E9F69C /* assets */,
-				E949FFFE26C66CB800E9F69C /* main.jsbundle */,
 				E9B4810A26C0E3C800FBAD4A /* Resource */,
 				E9B4810526C0D87400FBAD4A /* antfill.ttf */,
 				E9B4810426C0D87400FBAD4A /* antoutline.ttf */,
-				E9B4810026C00B3200FBAD4A /* assets */,
 				13B07FAE1A68108700A75B9A /* taroDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* taroDemoTests */,
@@ -262,10 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E949FFFF26C66CB800E9F69C /* main.jsbundle in Resources */,
 				E9B4810626C0D87400FBAD4A /* antoutline.ttf in Resources */,
+				E9C695D526E753E30010D5A5 /* index.jsbundle in Resources */,
 				E9B4810726C0D87400FBAD4A /* antfill.ttf in Resources */,
-				E949000326C6780600E9F69C /* assets in Resources */,
+				E9C695D626E753E30010D5A5 /* assets in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -477,8 +475,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GAB8N24QG3;
+				DEVELOPMENT_TEAM = 73HJR29D82;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = taroDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -493,6 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlztc.jd;
 				PRODUCT_NAME = taroDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -506,15 +508,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GAB8N24QG3;
+				DEVELOPMENT_TEAM = 73HJR29D82;
 				INFOPLIST_FILE = taroDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -522,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlztc.jd;
 				PRODUCT_NAME = taroDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -557,8 +562,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Brilliant Insight Tree Technology Co., Ltd. (73HJR29D82)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Brilliant Insight Tree Technology Co., Ltd. (73HJR29D82)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 73HJR29D82;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
@@ -622,8 +630,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Brilliant Insight Tree Technology Co., Ltd. (73HJR29D82)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Brilliant Insight Tree Technology Co., Ltd. (73HJR29D82)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 73HJR29D82;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
