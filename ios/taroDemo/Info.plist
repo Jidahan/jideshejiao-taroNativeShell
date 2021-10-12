@@ -22,7 +22,16 @@
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array>
-		<dict/>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>weixin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wx1376daf6f0ab577d</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
@@ -69,6 +78,12 @@
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>weixin</string>
+		<string>wechat</string>
+		<string>weixinULAPI</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

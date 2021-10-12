@@ -3151,6 +3151,11 @@ event-target-shim@^5.0.0, event-target-shim@^5.0.1:
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
 
+events@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.nlark.com/events/download/events-1.0.1.tgz#386f6471cbb609e7925e7bfe7468634b9e069ac2"
+  integrity sha1-OG9kccu2CeeSXnv+dGhjS54GmsI=
+
 exec-sh@^0.3.2:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.3.5.tgz#1b46bd6bcbf54fdc1e926a4f3d90126d42cec3df"
@@ -6248,6 +6253,13 @@ react-native-webview@^11.6.4:
   dependencies:
     escape-string-regexp "2.0.0"
     invariant "2.2.4"
+
+react-native-wechat-lib@^1.1.26:
+  version "1.1.26"
+  resolved "https://registry.nlark.com/react-native-wechat-lib/download/react-native-wechat-lib-1.1.26.tgz#60be6ba92399a38c9df5ca0fc4c1353b089f7210"
+  integrity sha1-YL5rqSOZo4yd9coPxME1OwifchA=
+  dependencies:
+    events "1.0.1"
 
 react-native@^0.64.0:
   version "0.64.2"
