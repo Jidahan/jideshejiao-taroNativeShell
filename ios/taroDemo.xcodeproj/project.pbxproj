@@ -28,6 +28,7 @@
 		E9B4810C26C0E3CE00FBAD4A /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = E9B4810A26C0E3C800FBAD4A /* Resource */; };
 		E9C695D626E753E30010D5A5 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E9C695D426E753E30010D5A5 /* assets */; };
 		E9C695DA26E88BAD0010D5A5 /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E9C695D926E88BAC0010D5A5 /* index.jsbundle */; };
+		E9EA36AA27194DF700FB34AA /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = E9C695D926E88BAC0010D5A5 /* index.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EA36AA27194DF700FB34AA /* index.jsbundle in Resources */,
 				E9B4810C26C0E3CE00FBAD4A /* Resource in Resources */,
 				E9B4810826C0D93C00FBAD4A /* antfill.ttf in Resources */,
 				E9B4810926C0D93C00FBAD4A /* antoutline.ttf in Resources */,
@@ -529,7 +531,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.4.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -566,7 +568,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.4.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",

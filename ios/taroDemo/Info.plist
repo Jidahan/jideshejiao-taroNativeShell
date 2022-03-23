@@ -34,7 +34,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
 	<dict/>
 	<key>LSApplicationQueriesSchemes</key>
@@ -59,7 +59,7 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>是否允许此App使用你的相机？</string>
+	<string>亲，记得需要访问您的相机，用于社交照片的上传</string>
 	<key>NSContactsUsageDescription</key>
 	<string>是否允许此App访问你的通讯录？</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -69,9 +69,9 @@
 	<key>NSMotionUsageDescription</key>
 	<string>App需要您的同意,才能访问运动与健身</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>是否允许此App访问你的媒体资料库？</string>
+	<string>亲，我们需要访问您的相册，用于获取照片的上传</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>是否允许此App访问你的媒体资料库？</string>
+	<string>亲，我们需要访问您的相册，用于获取照片的上传</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>antfill.ttf</string>
